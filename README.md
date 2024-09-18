@@ -23,7 +23,7 @@ The position of the vehicle within the $R_0$ frame is given by the parameters $x
 * $\overrightarrow{O_0O_1} = x \times \overrightarrow{x_0} + y \times \overrightarrow{y_0}$
 * $\theta = \left(\overrightarrow{x_0}, \overrightarrow{x_1} \right) $
 
-The aim of this study is to gave the time derivative of $x$, $y$ and $\theta$ as a function of the speed of the wheels ($V_L$ and $V_R$) and the geometry of the vehicle.
+The aim of this study is to give the time derivative of $x$, $y$ and $\theta$ as a function of the speed of the wheels ($V_L$ and $V_R$) and the geometry of the vehicle.
 
 ## Solid kinematics formula
 
