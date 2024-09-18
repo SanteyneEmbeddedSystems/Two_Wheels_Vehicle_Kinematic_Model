@@ -35,14 +35,14 @@ According to the solid kinematics formula, one has :
 Within the $R_1$ frame, it can be written :
 ```math
 \begin{align}
-V_L \overrightarrow{y_1} &= V_R \overrightarrow{y_1} + e\overrightarrow{x_1} \wedge \dot{\theta} \overrightarrow{z_1} \\
-&= V_R\overrightarrow{y_1} - e \dot{\theta} \overrightarrow{y_1} 
+V_L \overrightarrow{y_1} &= V_R \overrightarrow{y_1} + E \overrightarrow{x_1} \wedge \dot{\theta} \overrightarrow{z_1} \\
+&= V_R\overrightarrow{y_1} - E \dot{\theta} \overrightarrow{y_1} 
 \end{align}
 ```
 
 So one has :
 ```math
-\dot{\theta} = \frac{V_R - V_L}{e}
+\dot{\theta} = \frac{V_R - V_L}{E}
 ```
 
 According to the solid kinematics formula, one also has :
@@ -50,8 +50,8 @@ According to the solid kinematics formula, one also has :
 ```math
 \begin{align}
 \overrightarrow{V_{L\in R_1/R_0}} &= \overrightarrow{V_{O_1\in R_1/R_0}} + \overrightarrow{LG} \wedge \overrightarrow{\Omega_{R_1/R_0}} \\
-&= \dot{x} \overrightarrow{x_0} + \dot{y} \overrightarrow{y_0} + \frac{e}{2}\overrightarrow{x_1} \wedge \dot{\theta} \overrightarrow{z} \\
-&= \dot{x} \overrightarrow{x_0} + \dot{y} \overrightarrow{y_0} - \frac{e}{2} \dot{\theta} \overrightarrow{y_1} \\
+&= \dot{x} \overrightarrow{x_0} + \dot{y} \overrightarrow{y_0} + \frac{E}{2}\overrightarrow{x_1} \wedge \dot{\theta} \overrightarrow{z} \\
+&= \dot{x} \overrightarrow{x_0} + \dot{y} \overrightarrow{y_0} - \frac{E}{2} \dot{\theta} \overrightarrow{y_1} \\
 \end{align}
 ```
 
@@ -64,9 +64,9 @@ On $\overrightarrow{x_0}$ :
 
 ```math
 \begin{align}
-& -\sin \theta V_L = \dot{x} + \frac{e}{2} \dot{\theta} \sin \theta \\
-\Leftrightarrow & \dot{x} = -\sin{\theta} \times \left( \frac{e}{2} \dot{\theta}  + V_L \right) \\
-\Leftrightarrow & \dot{x} = -\sin{\theta} \times \left( \frac{e}{2} \frac{V_R - V_L}{e}  + V_L \right) \\
+& -\sin \theta V_L = \dot{x} + \frac{E}{2} \dot{\theta} \sin \theta \\
+\Leftrightarrow & \dot{x} = -\sin{\theta} \times \left( \frac{E}{2} \dot{\theta}  + V_L \right) \\
+\Leftrightarrow & \dot{x} = -\sin{\theta} \times \left( \frac{E}{2} \frac{V_R - V_L}{E}  + V_L \right) \\
 \Leftrightarrow & \dot{x}= - \sin{\theta} \times \left( \frac{V_L + V_R}{2} \right)
 \end{align}
 ```
@@ -79,9 +79,9 @@ On $\overrightarrow{y_0}$ :
 
 ```math
 \begin{align}
-& \cos{\theta} V_L = \dot{y} - \frac{e}{2} \dot{\theta} \cos{\theta} \\
-\Leftrightarrow & \dot{y} = \cos{\theta} \times \left(  V_L + \frac{e}{2} \dot{\theta}  \right) \\
-\Leftrightarrow & \dot{y} = \cos{\theta} \times \left(  V_L + \frac{e}{2} \frac{V_R - V_L}{e}  \right) \\
+& \cos{\theta} V_L = \dot{y} - \frac{E}{2} \dot{\theta} \cos{\theta} \\
+\Leftrightarrow & \dot{y} = \cos{\theta} \times \left(  V_L + \frac{E}{2} \dot{\theta}  \right) \\
+\Leftrightarrow & \dot{y} = \cos{\theta} \times \left(  V_L + \frac{E}{2} \frac{V_R - V_L}{E}  \right) \\
 \Leftrightarrow & \dot{y} = \cos{\theta} \times \left(   \frac{V_L + V_R}{2}  \right)
 \end{align}
 ```
@@ -92,7 +92,7 @@ Finally the kinematic model is given by :
 \begin{aligned} 
 \dot{x} & = - \sin{\theta} \times \left( \frac{V_L + V_R}{2} \right) \\
 \dot{y} & =  \cos{\theta} \times \left(   \frac{V_L + V_R}{2}  \right) \\
-\dot{\theta} & = \frac{V_R - V_L}{e}
+\dot{\theta} & = \frac{V_R - V_L}{E}
 \end{aligned} 
 \right.
 ```
