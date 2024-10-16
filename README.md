@@ -71,10 +71,6 @@ On $\overrightarrow{x_0}$ :
 On $\overrightarrow{y_0}$ :
 
 ```math
-
-```
-
-```math
 \begin{align}
 & \cos{\theta} V_L = \dot{y} - \frac{E}{2} \dot{\theta} \cos{\theta} \\
 \Leftrightarrow & \dot{y} = \cos{\theta} \times \left( V_L + \frac{E}{2} \dot{\theta} \right) \\
