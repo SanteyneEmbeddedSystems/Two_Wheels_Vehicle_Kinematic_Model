@@ -1,6 +1,6 @@
 # Two wheels vehicle kinematic model
 
-This repo give and demonstrate the kinematic model of a single axle two wheels vehicle.
+This repo gives and demonstrates the kinematic model of a single axle two wheels vehicle.
 
 ## Parameters
 
